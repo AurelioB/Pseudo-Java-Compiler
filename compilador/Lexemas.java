@@ -1,0 +1,70 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package compilador;
+
+/**
+ *
+ * @author KeriosUl
+ */
+public enum Lexemas {
+    CLASS,
+    PUBLIC,
+    STATIC,
+    VOID,
+    MAIN,
+    WHILE,
+    FOR,
+    IF,
+    ELSE,
+    BREAK,
+    CONTINUE,
+    RETURN,
+    SYSTEM,
+    OUT,
+    IN,
+    PRINTLN,
+    READ,
+    TIPO_STRING,
+    TIPO_INT,
+    TIPO_BOOLEAN,
+    TIPO_FLOAT,
+    OP_SUMA,
+    OP_RESTA,
+    OP_MULT,
+    OP_DIV,
+    OP_MOD,
+    OP_INC,
+    OP_DEC,
+    OP_IGUAL,
+    OP_DIF,
+    OP_MENOR,
+    OP_MAYOR,
+    OP_MENIG,
+    OP_MAYIG,
+    OP_NOT,
+    OP_AND,
+    OP_OR,
+    OP_ASIGNACION,
+    OP_ASIG_MUL,
+    OP_ASIG_DIV,
+    OP_ASIG_MOD,
+    OP_ASIG_SUMA,
+    OP_ASIG_RESTA,
+    PUNTO,
+    PYC,
+    COMA,
+    PAR_IZQ,
+    PAR_DER,
+    LLAVE_IZQ,
+    LLAVE_DER,
+    ID,
+    CONST_ENTERA,
+    CONST_REAL,
+    CONST_LOGICA,
+    CONST_CARACTER,
+    CONST_CADENA,
+    COMENTARIO,
+    UNDEFINED
+}
